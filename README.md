@@ -8,12 +8,40 @@ Este proyecto se enfoca principalmente en el análisis de evación de clientes (
 
 ## 🎯 Objetivos
 
-- Extraer datos de clientes desde una API.
-- Realizar limpieza y transformación de los datos.
-- Normalizar y estructurar la información para análisis.
-- Identificar patrones asociados al abandono.
-- Visualizar métricas relevantes para facilitar la toma de decisiones.
-- Generar visualizaciones graficas para facilitar la lectura de los datos.
+El objetivo principal de este proyecto es **analizar la cancelación de clientes** en una empresa de telecomunicaciones, identificando los factores más relevantes que influyen en la decisión de abandono y proponiendo estrategias de retención basadas en evidencia.
+
+### Objetivos específicos:
+
+1. **Exploración de Datos**  
+   - Comprender la distribución de clientes activos y cancelados.  
+   - Evaluar la existencia de desbalance de clases en la variable objetivo (cancelación).  
+
+2. **Preprocesamiento de Datos**  
+   - Tratamiento de valores nulos y codificación de variables categóricas.  
+   - Aplicación de técnicas de balanceo (oversampling, undersampling, SMOTE) cuando sea necesario.  
+   - Evaluar la necesidad de normalización/estandarización para modelos sensibles a la escala.  
+
+3. **Análisis Exploratorio**  
+   - Visualizar correlaciones entre variables numéricas y la cancelación.  
+   - Identificar patrones en variables clave como tiempo de contrato, gasto total y método de pago.  
+
+4. **Modelado Predictivo**  
+   - Construcción y evaluación de modelos supervisados (ej. Regresión Logística, KNN, Random Forest, SVM).  
+   - Comparar métricas de desempeño: Exactitud, Precisión, Recall, F1-score y matriz de confusión.  
+
+5. **Interpretación de Resultados**  
+   - Determinar las variables más influyentes en la cancelación (coeficientes, importancia de variables).  
+   - Identificar señales tempranas de riesgo de cancelación.  
+
+6. **Estrategias de Negocio**  
+   - Proponer acciones de retención basadas en los hallazgos del análisis, tales como:  
+     - Incentivar contratos de mayor permanencia.  
+     - Mejorar la experiencia de clientes de alto gasto con onboarding y soporte.  
+     - Promover el uso de métodos de pago automáticos.  
+     - Ofrecer bundles de servicios que aumenten el valor percibido.  
+
+---
+📌 Este proyecto combina **análisis exploratorio**, **técnicas de machine learning** y **estrategia de negocio** para abordar un problema clave en la industria de telecomunicaciones: **la retención de clientes**.
 
 ---
 
